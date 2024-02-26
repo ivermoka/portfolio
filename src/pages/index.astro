@@ -1,11 +1,26 @@
 ---
 import About from '../components/About.astro';
-import Sidebar from '../components/Sidebar.astro'
 import Projects from '../components/Projects.astro'
+import Navbar from "../components/Navbar.astro"
+import Footer from '../components/Footer.astro';
+
+
+
 ---
-<div class=" h-screen bg-[#1D1F23] font-mono flex ">
-	
-	<Sidebar />
+<div class=" h-screen bg-[#282C34] font-mono flex flex-col ">
+	<section class="w-full ">
+		<Navbar />
+	</section>
 	<About />
+	<Footer />
 	<!-- <Projects /> -->
-  </div>
+</div>
+
+<style>
+	@import url("https://use.typekit.net/eph8ymq.css");
+	*{
+		font-family: "futura-pt", sans-serif;
+		font-weight: 900;
+		font-style: normal;
+	}
+  </style>
