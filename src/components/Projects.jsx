@@ -21,7 +21,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className="text-white bg-[#282C34] py-24 sm:py-32">
+    <div className="text-white bg-[#282C34] py-24  sm:mt-32  sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto  lg:mx-0 flex justify-between">
           <div>
