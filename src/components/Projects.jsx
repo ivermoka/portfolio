@@ -65,7 +65,10 @@ export default function Projects() {
                   <p className="pl-1 pt-1">{repo.stargazers_count}</p>
                 </div>
                 {repo.homepage !== "" && repo.homepage !== null && (
-                  <a href={repo.homepage}>
+                  <a
+                    className="flex text-xs lg:text-base sm:text-3xl justify-center pr-5 items-center h-full "
+                    href={repo.homepage}
+                  >
                     <SlGlobe />
                   </a>
                 )}{" "}
