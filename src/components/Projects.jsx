@@ -35,7 +35,7 @@ export default function Projects() {
 
           <img
             className=" max-w-96"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&bg_color=282C34&text_color=FFFFFF&title_color=d1d5db"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=ivermoka&layout=compact&bg_color=282C34&text_color=FFFFFF&title_color=d1d5db"
           />
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
